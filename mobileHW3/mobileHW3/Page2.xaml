@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobileHW3.Page2"
+             Title="Page 2"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="MainLabel"   
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Image Source="https://jacksondmurphy.files.wordpress.com/2013/09/normal-squidward1.png"
+                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
